@@ -72,7 +72,7 @@ public class CheckUtils {
 	 *
 	 * @param num チェック対象の数値
 	 * @return 引数の{@code num}が{@code null}または、
-	 * 			{@link Number#isEmpty()}の場合{@code true}。
+	 * 			{@link Number#doubleValue()}の結果が0.0以下の場合{@code true}。
 	 * 			要素が存在する場合は{@code false}。
 	 * @since 1.0
 	 */
