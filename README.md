@@ -23,6 +23,12 @@ resolvers += "Maven Repository on Github" at "http://yellow-man.github.io/common
 
 
 
+## 更新履歴（Version history）
+
+* [1.0.0](https://github.com/yellow-man/common-tools/releases/tag/1.0.0) リリース 2016/05/31
+
+
+
 ## ライセンス（License）
 The MIT License (MIT)
 
