@@ -41,7 +41,7 @@ public class DateUtils {
 	 * 日数{@code day}の値が負数の場合、減算します。
 	 *
 	 * @param date 加算（減算）対象の日付
-	 * @param day 加算（減算）する日数
+	 * @param day 加算（負数の場合減算）する日数
 	 * @return 加算（減算）結果の日付
 	 * @since 1.0
 	 */
@@ -77,7 +77,7 @@ public class DateUtils {
 
 
 	/**
-	 * 引数{@code date}に対して年を取得します。
+	 * 引数{@code date}に対する年を取得します。
 	 *
 	 * @param date 取得対象の日付
 	 * @return 年を取得
@@ -90,7 +90,7 @@ public class DateUtils {
 	}
 
 	/**
-	 * 引数{@code date}に対して月を取得します。
+	 * 引数{@code date}に対する月を取得します。
 	 *
 	 * @param date 取得対象の日付
 	 * @return 月を取得
@@ -103,7 +103,7 @@ public class DateUtils {
 	}
 
 	/**
-	 * 引数{@code date}に対して日を取得します。
+	 * 引数{@code date}に対する日を取得します。
 	 *
 	 * @param date 取得対象の日付
 	 * @return 日を取得

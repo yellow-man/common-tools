@@ -4,7 +4,7 @@ organization := "yokohama.yellow_man"
 
 name := """common-tools"""
 
-version := "0.0.1"
+version := "1.0.0"
 
 scalaVersion := "2.11.6"
 

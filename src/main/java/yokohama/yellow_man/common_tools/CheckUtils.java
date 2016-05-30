@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * チェックに関する機能を提供します。
+ * オブジェクトチェックに関する機能を提供します。
  *
  * @author yellow-man
  * @since 1.0
