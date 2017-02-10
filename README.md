@@ -19,7 +19,7 @@ resolvers += "Maven Repository on Github" at "http://yellow-man.github.io/common
 
 ## ドキュメント（Document）
 
-* [Common-tools アプリケーション API仕様](http://yellow-man.github.io/common-tools/javadoc/common-tools_2.11/1.0.0/)
+* [Common-tools（1.0.0） アプリケーション API仕様](http://yellow-man.github.io/common-tools/javadoc/common-tools/1.0.0/)
 
 
 
