@@ -9,7 +9,7 @@ Playアプリケーションからの参照を想定しており、
 利用方法は、build.sbtに下記依存性の定義を記述いただくことで利用可能です。
 ```
 libraryDependencies ++= Seq(
-  "yokohama.yellow_man" % "common-tools_2.11" % "1.0.0"
+  "yokohama.yellow_man" % "common-tools_2.11" % "1.1.0"
 )
 
 resolvers += "Maven Repository on Github" at "http://yellow-man.github.io/common-tools/"
@@ -19,12 +19,14 @@ resolvers += "Maven Repository on Github" at "http://yellow-man.github.io/common
 
 ## ドキュメント（Document）
 
+* [Common-tools（1.1.0） アプリケーション API仕様](http://yellow-man.github.io/common-tools/javadoc/common-tools/1.1.0/)
 * [Common-tools（1.0.0） アプリケーション API仕様](http://yellow-man.github.io/common-tools/javadoc/common-tools/1.0.0/)
 
 
 
 ## 更新履歴（Version history）
 
+* [1.1.0](https://github.com/yellow-man/common-tools/releases/tag/1.1.0) リリース 2017/03/04
 * [1.0.0](https://github.com/yellow-man/common-tools/releases/tag/1.0.0) リリース 2016/05/31
 
 
