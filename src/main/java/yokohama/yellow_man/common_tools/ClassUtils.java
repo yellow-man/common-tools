@@ -9,6 +9,7 @@ import ch.qos.logback.classic.Logger;
  *
  * @author yellow-man
  * @since 1.0.0
+ * @version 1.1.0
  */
 public class ClassUtils {
 
@@ -20,6 +21,7 @@ public class ClassUtils {
 	 *
 	 * @return このメソッドを参照しているメソッド名を返します。
 	 * @since 1.0.0
+	 * @version 1.1.0
 	 */
 	public static String getMethodName() {
 		Throwable throwable = new Throwable();
@@ -27,8 +29,8 @@ public class ClassUtils {
 		StackTraceElement[] stackTrace = throwable.getStackTrace();
 
 		if (stackTrace != null) {
-			if(stackTrace.length > 2){
-				methodName = stackTrace[2].getMethodName();
+			if(stackTrace.length > 1){
+				methodName = stackTrace[1].getMethodName();
 			}
 		}
 		return methodName;
