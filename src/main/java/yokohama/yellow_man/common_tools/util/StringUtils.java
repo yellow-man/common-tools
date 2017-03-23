@@ -1,4 +1,4 @@
-package yokohama.yellow_man.common_tools;
+package yokohama.yellow_man.common_tools.util;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -9,12 +9,11 @@ import ch.qos.logback.classic.Logger;
 
 /**
  * 文字列操作に関する機能を提供します。
- * <p>※2.0以降廃止予定。{@link yokohama.yellow_man.common_tools.util} に移動しました。
+ *
  * @author yellow-man
  * @since 1.0.0
- * @version 1.1.0
+ * @version 1.2.0
  */
-@Deprecated
 public class StringUtils {
 
 	/** Logger定義 */

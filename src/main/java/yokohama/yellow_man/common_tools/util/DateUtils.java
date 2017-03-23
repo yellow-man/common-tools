@@ -1,4 +1,4 @@
-package yokohama.yellow_man.common_tools;
+package yokohama.yellow_man.common_tools.util;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -11,12 +11,11 @@ import ch.qos.logback.classic.Logger;
 
 /**
  * 日付操作に関する機能を提供します。
- * <p>※2.0以降廃止予定。{@link yokohama.yellow_man.common_tools.util} に移動しました。
+ *
  * @author yellow-man
  * @since 1.0.0
- * @version 1.1.1
+ * @version 1.2.0
  */
-@Deprecated
 public class DateUtils {
 
 	/** Logger定義 */

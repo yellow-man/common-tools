@@ -1,4 +1,4 @@
 /**
- * 後にCommon-toolsに移動します。
+ * ユーティリティ。
  */
 package yokohama.yellow_man.common_tools;
