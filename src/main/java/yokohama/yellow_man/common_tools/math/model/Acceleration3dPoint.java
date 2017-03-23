@@ -1,5 +1,9 @@
 package yokohama.yellow_man.common_tools.math.model;
 
+import org.slf4j.LoggerFactory;
+
+import ch.qos.logback.classic.Logger;
+
 /**
  * 3次元情報を保持します。
  *
@@ -7,6 +11,10 @@ package yokohama.yellow_man.common_tools.math.model;
  * @since 1.2.0
  */
 public final class Acceleration3dPoint {
+
+	/** Logger定義 */
+	private static Logger LOGGER = (Logger) LoggerFactory.getLogger(Acceleration3dPoint.class.getName());
+
 	/** x軸 */
 	private double x = 0.0;
 	/** y軸 */

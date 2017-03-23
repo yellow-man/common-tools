@@ -1,5 +1,8 @@
 package yokohama.yellow_man.common_tools.math.dimension;
 
+import org.slf4j.LoggerFactory;
+
+import ch.qos.logback.classic.Logger;
 import yokohama.yellow_man.common_tools.math.model.Acceleration3dPoint;
 
 /**
@@ -8,6 +11,9 @@ import yokohama.yellow_man.common_tools.math.model.Acceleration3dPoint;
  * @since 1.2.0
  */
 public final class ScalerDimensionExchanger implements DimensionExchanger {
+
+	/** Logger定義 */
+	private static Logger LOGGER = (Logger) LoggerFactory.getLogger(ScalerDimensionExchanger.class.getName());
 
 	/* (非 Javadoc)
 	 * @see yokohama.yellow_man.matching_tools.dimension.DimensionExchanger#exchange(yokohama.yellow_man.matching_tools.model.Acceleration3dPoint[])

@@ -1,5 +1,8 @@
 package yokohama.yellow_man.common_tools.math.arrayFilter;
 
+import org.slf4j.LoggerFactory;
+
+import ch.qos.logback.classic.Logger;
 import yokohama.yellow_man.common_tools.math.common.CommonInfo;
 
 /**
@@ -8,6 +11,11 @@ import yokohama.yellow_man.common_tools.math.common.CommonInfo;
  * @since 1.2.0
  */
 public class LaplacianArrayFilter implements ArrayFilter {
+
+	/** Logger定義 */
+	private static Logger LOGGER = (Logger) LoggerFactory.getLogger(LaplacianArrayFilter.class.getName());
+
+	/** 勾配フィルタベース情報 */
 	private static double[] filterBase = {-1.0, 2, -1.0};
 
 	/* (非 Javadoc)

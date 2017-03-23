@@ -1,5 +1,8 @@
 package yokohama.yellow_man.common_tools.math.interpolation;
 
+import org.slf4j.LoggerFactory;
+
+import ch.qos.logback.classic.Logger;
 import yokohama.yellow_man.common_tools.math.model.MatchingArray;
 
 /**
@@ -9,6 +12,9 @@ import yokohama.yellow_man.common_tools.math.model.MatchingArray;
  * @since 1.2.0
  */
 public final class FixInterpolation implements Interpolation {
+
+	/** Logger定義 */
+	private static Logger LOGGER = (Logger) LoggerFactory.getLogger(FixInterpolation.class.getName());
 
 	/* (非 Javadoc)
 	 * @see yokohama.yellow_man.matching_tools.interpolation.Interpolation#calcurate(yokohama.yellow_man.matching_tools.model.MatchingArray)

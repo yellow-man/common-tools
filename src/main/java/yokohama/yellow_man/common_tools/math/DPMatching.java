@@ -1,5 +1,8 @@
 package yokohama.yellow_man.common_tools.math;
 
+import org.slf4j.LoggerFactory;
+
+import ch.qos.logback.classic.Logger;
 import yokohama.yellow_man.common_tools.math.common.CommonInfo;
 import yokohama.yellow_man.common_tools.math.interpolation.Interpolation;
 import yokohama.yellow_man.common_tools.math.model.MatchingArray;
@@ -11,6 +14,10 @@ import yokohama.yellow_man.common_tools.math.model.MatchingArray;
  * @since 1.2.0
  */
 public final class DPMatching {
+
+	/** Logger定義 */
+	private static Logger LOGGER = (Logger) LoggerFactory.getLogger(DPMatching.class.getName());
+
 	/** マッチング対象の配列オブジェクト */
 	private MatchingArray array;
 	/** 補間ユニット */

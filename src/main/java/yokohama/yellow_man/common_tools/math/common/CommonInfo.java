@@ -1,11 +1,19 @@
 package yokohama.yellow_man.common_tools.math.common;
 
+import org.slf4j.LoggerFactory;
+
+import ch.qos.logback.classic.Logger;
+
 /**
  * ユーティリティクラス。
  * @author none
  * @since 1.2.0
  */
 public final class CommonInfo {
+
+	/** Logger定義 */
+	private static Logger LOGGER = (Logger) LoggerFactory.getLogger(CommonInfo.class.getName());
+
 	/** このクラスのインスタンス */
 	private static CommonInfo _instance = new CommonInfo();
 

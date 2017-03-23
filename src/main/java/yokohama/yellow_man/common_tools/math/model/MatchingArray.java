@@ -1,5 +1,9 @@
 package yokohama.yellow_man.common_tools.math.model;
 
+import org.slf4j.LoggerFactory;
+
+import ch.qos.logback.classic.Logger;
+
 /**
  * マッチング対象の配列を保持します。
  *
@@ -7,6 +11,10 @@ package yokohama.yellow_man.common_tools.math.model;
  * @since 1.2.0
  */
 public final class MatchingArray {
+
+	/** Logger定義 */
+	private static Logger LOGGER = (Logger) LoggerFactory.getLogger(MatchingArray.class.getName());
+
 	/** マッチング対象配列A */
 	private Object[] arrayA;
 	/** マッチング対象配列B */
