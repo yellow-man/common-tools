@@ -40,7 +40,6 @@ public final class CommonInfo {
 	/**
 	 * 引数の数値チェックを行います。
 	 * @param a チェック対象のオブジェクト
-	 * @param b チェック対象のオブジェクト
 	 * @return チェック結果を返却します。
 	 * @since 1.2.0
 	 */
